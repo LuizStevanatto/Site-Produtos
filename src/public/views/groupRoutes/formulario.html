@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 </head>
@@ -13,24 +12,23 @@
         <br>
     </div>
 
-    <form>
+    <form method="get" action="envio_dados.php">
         <fieldset>
             <div>
-                <label for="Nome"></label>
-                <input type="text" name="Nome" id="Nome">
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" placeholder="digite seu nome aqui" >
             </div>
 
             <div>
-                <label for="Sobrenome"></label>
-                <input type="text" name="Sobrenome" id="Sobrenome">
+                <label for="Nome">Sobrenome</label>
+                <input type="text" name="sobrenome"placeholder="digite seu sobrenome aqui" >
             </div>
-        </fieldset>
 
         <div>
-            <label for="email"></label>
-            <input type="email" name="email" id="email">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="digite seu email aqui">
         </div>
-
+    </fieldset>
     </form>
 
 </body>
