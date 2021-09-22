@@ -10,3 +10,22 @@
     color: white !important;
     border: 1px solid white !important;
 }
+.alignCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5.8%;
+    width: 90%;
+}
+.alignCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
