@@ -5,27 +5,32 @@ html, body{
     background: #7159c1;
 }
 
-.container {
-    display:
-    grid;
-    grid-template-columns:
-    40% 60%;
-    grid-template-rows:
-    30px 80px;
-    grid-template-areas: "header" "content"
+img{
+width: 600.px;
+height: 659.px;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 85vh 100pt;
+    grid-template-areas: "header main" 
+                         "footer footer"
+}
+
 header{
 grid-area: header;
 background: green;
 }
-content{
-grid-area: content;
+
+main{
+grid-area: main;
 background: darkolivegreen;
 }
 
 
-.container{
-	grid-template-areas: "header footer"
+footer{
+	background: brown;
 }
 
   
