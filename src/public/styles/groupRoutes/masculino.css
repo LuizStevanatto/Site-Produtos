@@ -16,6 +16,9 @@
     align-items: center;
     justify-content: center;
     margin-left: 5.8%;
+<<<<<<< HEAD
+    width: 90%;
+=======
     width: 100%;
 }
 
@@ -53,4 +56,5 @@
     display: flex;
     align-items:center;
     justify-content: center;
+>>>>>>> ade5a13266446ef95a529dee7ba0699d66e529cb
 }

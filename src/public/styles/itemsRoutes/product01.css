@@ -1,10 +1,33 @@
-.container img {
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
 }
 
-.produto01, p{
-    float: left;
+.container {
+    display:
+    grid;
+    grid-template-columns:
+    40% 60%;
+    grid-template-rows:
+    30px 80px;
+    grid-template-areas: "header" "content"
 }
+header{
+grid-area: header;
+background: green;
+}
+content{
+grid-area: content;
+background: darkolivegreen;
+}
+
+
+.container{
+	grid-template-areas: "header footer"
+}
+
+  
+
+
