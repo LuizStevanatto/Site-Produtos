@@ -41,53 +41,46 @@
           </div>
         </div>
       </nav>
+      <br>
     
       <div class="topo">
-        <h1>Cadastro de Clientes</h1>
+        <h1>Central de Atendimento</h1>
         <br>
     </div>
+    <br>
 
-    <form method="get" action="envio_dados.php">
+    <form method="get" action="envio_dados.php" class="alignCards">
         <fieldset>
-            <div class="card">
-                <label for="Nome">Nome</label>
-                <input type="text" name="nome" placeholder="digite seu nome ">
+            <div class="alignCards" >
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nome">
+              </div>
+              <br>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Sobrenome">
+              </div>
             </div>
              <br>
-            <div class="card">
-                <label for="Nome">Sobrenome</label>
-                <input type="text" name="sobrenome"placeholder="digite seu sobrenome " >
-            </div>
-             <br>
-        <div class="card">
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="digite seu email ">
+        <div class="alignCards">
+          <div class="col">
+            <input type="tel" class="form-control" placeholder="Telefone">
+          </div>
+          <br>
+          <div class="col">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
         </div>
-        <br>
-        <div class="card">
-            <label for="telefone">Telefone</label>
-            <input type="tel" name="telefone" placeholder="digite seu telefone ">
-        </div>
-        <br>
-        <div class="card">
-            <label for="nivel de satisfaçao">Nível de Satisfação</label>
-            <select id="nivel de satisfaçao">
-                <option value="--">Selecione</option>
-                <option>Ótimo</option>
-                <option>Bom</option>
-                <option>Ruim</option>
-            </select>
+        <div class="alignCards">
+          <br>
+          <input type="textarea" class="form-control" placeholder="Conte sua experiência" >
         </div>
       </fieldset>
         <br>
-        <div class="card">
-          <label>Conte sua experiência:</label>
-          <br>
-          <textarea name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
-        </div>
-
         <br>
-        <button type="submit">Concluído</button>
+        <br>
+        <div class="searchButton">
+        <button type="submit" class="btn btn-outline-dark btn-lg btn-block" >Concluído</button>
+      </div>
     </form>
 
 </body>
