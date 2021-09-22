@@ -9,4 +9,25 @@
 .searchButton{
     color: white !important;
     border: 1px solid white !important;
+    display: flex;
+    justify-content: center;
+}
+.alignCards{
+    display:flexbox;
+    align-items: justify;
+    justify-content: center;
+    margin-left: 5.8%;
+    width: 90%;
+}
+.alignCenter{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+
+}
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }

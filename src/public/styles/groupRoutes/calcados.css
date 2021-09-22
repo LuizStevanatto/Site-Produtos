@@ -10,3 +10,47 @@
     color: white !important;
     border: 1px solid white !important;
 }
+
+.alignCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5.8%;
+    width: 100%;
+}
+
+.filterProduct{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 1.0%;
+    width: 20%;
+    margin-left: 50px;
+    padding: 5px;
+}
+.todo{
+    display: flex;
+}
+
+.row2{
+    margin-left: 10.4%;
+    padding: 3px;
+}
+
+.filterColor{
+    background-color: rgb(119, 111, 111) !important;
+}
+
+.titulo{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: -30px;
+}
+
+.paginacao{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
