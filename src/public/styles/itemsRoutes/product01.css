@@ -6,33 +6,44 @@ html, body{
 }
 
 img{
-width: 600.px;
-height: 659.px;
+width: 375px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 85vh 100pt;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 450px 100px;
     grid-template-areas: "header main" 
-                         "footer footer"
+                         "footer footer";
+    gap: 5mm 5mm;
 }
 
 header{
 grid-area: header;
-background: green;
+background: hotpink;
+
+
 }
 
 main{
 grid-area: main;
-background: darkolivegreen;
+background: lightskyblue;
+
 }
 
 
 footer{
 	background: brown;
+
+    
 }
 
-  
+h1{
+
+}
+
+p{
+    
+}
 
 
