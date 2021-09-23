@@ -2,7 +2,16 @@ html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #7159c1;
+}
+
+#negrito {
+    font-weight: bold;
+}
+#italico {
+    font-style: italic;
+}
+#sublinhado {
+    text-decoration: underline;
 }
 
 img{
@@ -20,30 +29,37 @@ width: 375px;
 
 header{
 grid-area: header;
-background: hotpink;
-
-
 }
 
 main{
 grid-area: main;
-background: lightskyblue;
-
 }
-
 
 footer{
-	background: brown;
-
-    
+	grid-area: footer;
 }
 
-h1{
-
+h1-a{
+    
+    font-size: 220%;
+    font-family: 'Lato', sans-serif;
 }
 
 p{
+    color: seagreen;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
     
+
+
 }
 
+.divVendido{
+    text-align: right;
+    font-weight: bolder;
+}
 
+.comprar{
+    
+}
