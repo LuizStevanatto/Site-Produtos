@@ -1,0 +1,93 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#negrito {
+    font-weight: bold;
+}
+#italico {
+    font-style: italic;
+}
+#sublinhado {
+    text-decoration: underline;
+}
+
+img{
+width: 375px;
+box-shadow: 0 8px 12px 0 rgba(34, 34, 34, 0.2), 0 6px 18px 0 rgba(0,0,0,0.10);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 450px 100px;
+    grid-template-areas: "header main" 
+                         "footer footer";
+    gap: 5mm 5mm;
+}
+
+header{
+grid-area: header;
+}
+
+main{
+grid-area: main;
+}
+
+footer{
+	grid-area: footer;
+}
+
+h1-a{
+    
+    font-size: 220%;
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    color: seagreen;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
+    
+
+
+}
+
+b{
+    font-size: 25pt;
+}
+
+.divVendido{
+    text-align: right;
+    font-weight: bolder;
+}
+
+.button{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    border: 2px solid #438a45;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    margin: 10px 8px;
+    cursor: pointer;
+    box-shadow: 0 8px 12px 0 rgba(34, 34, 34, 0.2), 0 6px 18px 0 rgba(0,0,0,0.10);
+}
+
+div.dois {
+    line-height:0; /* correção para IE (arg!) */
+    width:0;
+    height:0;
+    border: 20px solid;
+    border-color:#54699C;
+    box-shadow: 10px 10px 10px 5px rgb(196, 196, 196);
+    }
